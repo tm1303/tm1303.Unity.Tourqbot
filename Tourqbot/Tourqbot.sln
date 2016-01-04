@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tourqbot.CSharp.Plugins", "Tourqbot.CSharp.Plugins.csproj", "{77768C84-139C-C75C-BB30-517F6520EAB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tourqbot.CSharp", "Tourqbot.CSharp.csproj", "{50956064-A0F5-05CF-29A8-0886AE7BD293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tourqbot.CSharp.Editor", "Tourqbot.CSharp.Editor.csproj", "{54BE8DC6-3E2E-2726-5EB2-B427E4D8B83D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77768C84-139C-C75C-BB30-517F6520EAB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77768C84-139C-C75C-BB30-517F6520EAB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77768C84-139C-C75C-BB30-517F6520EAB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77768C84-139C-C75C-BB30-517F6520EAB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50956064-A0F5-05CF-29A8-0886AE7BD293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50956064-A0F5-05CF-29A8-0886AE7BD293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50956064-A0F5-05CF-29A8-0886AE7BD293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50956064-A0F5-05CF-29A8-0886AE7BD293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54BE8DC6-3E2E-2726-5EB2-B427E4D8B83D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BE8DC6-3E2E-2726-5EB2-B427E4D8B83D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BE8DC6-3E2E-2726-5EB2-B427E4D8B83D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BE8DC6-3E2E-2726-5EB2-B427E4D8B83D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

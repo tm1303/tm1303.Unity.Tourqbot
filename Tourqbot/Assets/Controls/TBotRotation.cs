@@ -3,9 +3,10 @@ using System.Collections;
 
 public class TBotRotation : MonoBehaviour
 {
-    public float torque = 1;
+    public float torque = 2;
     public float maxVelocity = 100;
     public float brakeStrength = 0.9f;
+    public float forceAmplifier = 5.0f;
     public Rigidbody2D rb;
 
     // Use this for initialization
@@ -13,11 +14,10 @@ public class TBotRotation : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
-
-    // Update is called once per frame
-    void Update()
+    
+    void FixedUpdate()
     {
-        Debug.Log(rb.velocity );
+   //     Debug.Log(rb.velocity );
 
         if (Input.GetButton("Horizontal"))
             Rotate();
@@ -27,7 +27,7 @@ public class TBotRotation : MonoBehaviour
 
     void Rotate()
     {
-        var turn = -Input.GetAxis("Horizontal");
+        var turn = -Input.GetAxis("Horizontal") * forceAmplifier;
         var localVel = rb.velocity;
 
      //   Debug.Log("turn " + turn);

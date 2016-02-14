@@ -16,7 +16,7 @@ public class CamFollow : MonoBehaviour {
 
     void Update()
     {
-        Debug.Log(theBot.transform.position.x);
+        //Debug.Log(theBot.transform.position.x);
         var newPos = new Vector3(theBot.transform.position.x, theBot.transform.position.y, -10);
         trans.position = newPos;
     }

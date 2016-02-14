@@ -18,6 +18,7 @@ public class InfiniteFloorBehaviour : MonoBehaviour
         botBody = theBot.GetComponent<Rigidbody2D>();
         lineRenderer = GetComponent<LineRenderer>();
 
+        setUpLines();
         //var coliderPoints = GetComponent<EdgeCollider2D>().points.Cast<Vector3>();
 
         //Debug.Log("in render");
@@ -27,7 +28,7 @@ public class InfiniteFloorBehaviour : MonoBehaviour
 
     }
 
-    void OnRenderObject()
+    private void setUpLines()
     {
         var coliderPoints = GetComponent<EdgeCollider2D>().points.Select(p => new Vector3(p.x, p.y, 0)).ToArray();
 
